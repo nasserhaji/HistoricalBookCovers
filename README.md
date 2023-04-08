@@ -18,7 +18,7 @@ git clone https://github.com/hajihashemabad/HistoricalBookCovers.git
 2. Install the dependencies:
 
 ```bash
-cd historical-book-covers
+cd HistoricalBookCovers
 npm install
 ```
 
