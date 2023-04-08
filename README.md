@@ -92,7 +92,7 @@ In this example, we're using the getBookInfo function to retrieve the book infor
 We welcome contributions to the HistoricalBookCovers project! If you'd like to contribute, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and we'll review it as soon as possible.
 
 ## License
-HistoricalBookCovers is released under the MIT License.
+HistoricalBookCovers is released under the MIT [LICENSE](LICENSE).
 
 ## Authors
 - [Abdelnasser Hajihashemabad](https://github.com/hajihashemabad)
