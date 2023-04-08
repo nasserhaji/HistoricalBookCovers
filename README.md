@@ -36,7 +36,7 @@ truffle migrate --reset --network development
 ## Usage
 To use the smart contract, you can interact with it using a web3-enabled Ethereum wallet such as [MetaMask](https://metamask.io/).
 
-Here's an example of how you can mint a new NFT with book information:
+Here's a Code of how you can mint a new NFT with book information:
 
 ```javascript
 const HistoricalBookCovers = artifacts.require("HistoricalBookCovers");
