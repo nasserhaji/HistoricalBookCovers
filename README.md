@@ -4,9 +4,9 @@ HistoricalBookCovers is an Ethereum smart contract that enables the creation and
 ## Installation
 To install the smart contract, you'll need to have the following prerequisites installed:
 
-- [Node.js] (https://nodejs.org/en) version 12.0 or later
-- [Truffle] (https://trufflesuite.com/truffle/) version 5.0 or later
-- [Ganache] (https://trufflesuite.com/ganache/) version 2.0 or later
+- [Node.js](https://nodejs.org/en) version 12.0 or later
+- [Truffle](https://trufflesuite.com/truffle/) version 5.0 or later
+- [Ganache](https://trufflesuite.com/ganache/) version 2.0 or later
 Once you have the prerequisites installed, follow these steps:
 
 1. Clone the repository:
