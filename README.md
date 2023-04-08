@@ -12,7 +12,7 @@ Once you have the prerequisites installed, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/historical-book-covers.git
+git clone https://github.com/hajihashemabad/HistoricalBookCovers.git
 ```
 
 2. Install the dependencies:
