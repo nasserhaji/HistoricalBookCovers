@@ -5,7 +5,7 @@ myNFTContract.mintNFT(
     "Category Name", // category
     "Subject Name", // subject
     "Author Name", // author
-    "2022-01-01", // publication date
+    "2023-01-01", // publication date
     "Country Name", // country
     "Continent Name", // continent
     "Museum Name" // museum
