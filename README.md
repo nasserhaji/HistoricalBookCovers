@@ -96,7 +96,66 @@ In this example, we're using the getBookInfo function to retrieve the book infor
 const Web3 = require("web3");
 const web3 = new Web3("https://mainnet.infura.io/v3/<INFURA-PROJECT-ID>");
 ```
+Replace <INFURA-PROJECT-ID> with Infura project ID.
+3. Load the contract ABI and address:
+```javascript
+const contractABI = <ABI-JSON>; // Replace <ABI-JSON> with the ABI JSON of the contract
+const contractAddress = "<CONTRACT-ADDRESS>"; // Replace <CONTRACT-ADDRESS> with the address of the deployed contract
+```
+4. Create a contract instance:
+```javascript
+const contract = new web3.eth.Contract(contractABI, contractAddress);
+```
+5. Call the mintNFT function to mint a new NFT:
+```javascript
+const recipient = "<RECIPIENT-ADDRESS>"; // Replace <RECIPIENT-ADDRESS> with the address of the recipient
+const tokenURI = "<TOKEN-URI>"; // Replace <TOKEN-URI> with the URI of the token
+const name = "<NAME>"; // Replace <NAME> with the name of the book
+const category = "<CATEGORY>"; // Replace <CATEGORY> with the category of the book
+const subject = "<SUBJECT>"; // Replace <SUBJECT> with the subject of the book
+const author = "<AUTHOR>"; // Replace <AUTHOR> with the author of the book
+const publicationDate = "<PUBLICATION-DATE>"; // Replace <PUBLICATION-DATE> with the publication date of the book
+const country = "<COUNTRY>"; // Replace <COUNTRY> with the country of the book
+const continent = "<CONTINENT>"; // Replace <CONTINENT> with the continent of the book
+const museum = "<MUSEUM>"; // Replace <MUSEUM> with the museum of the book
 
+contract.methods
+  .mintNFT(
+    recipient,
+    tokenURI,
+    name,
+    category,
+    subject,
+    author,
+    publicationDate,
+    country,
+    continent,
+    museum
+  )
+  .send({ from: "<SENDER-ADDRESS>", gas: 1000000 })
+  .then(function (result) {
+    console.log("NFT minted with ID:", result);
+  })
+  .catch(function (error) {
+    console.error("Error minting NFT:", error);
+  });
+  ```
+Replace <SENDER-ADDRESS> with the address of the sender.
+
+6. Call the getBookInfo function to retrieve information about a specific NFT:
+```javascript
+const tokenId = "<TOKEN-ID>"; // Replace <TOKEN-ID> with the ID of the token
+
+contract.methods
+  .getBookInfo(tokenId)
+  .call()
+  .then(function (result) {
+    console.log("Book info:", result);
+  })
+  .catch(function (error) {
+    console.error("Error getting book info:", error);
+  });
+  ```
 ## Contributing
 We welcome contributions to the HistoricalBookCovers project! If you'd like to contribute, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and we'll review it as soon as possible.
 
