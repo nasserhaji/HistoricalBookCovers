@@ -1,5 +1,5 @@
 # HistoricalBookCovers
-HistoricalBookCovers is an Ethereum smart contract that enables the creation and management of non-fungible tokens (NFTs) representing historical book covers from various museums around the world. The smart contract stores metadata for each NFT, including the book name, category, subject, author, publication date, country, continent, and museum. This project is designed for developers who are interested in learning how to create NFTs with Solidity and interact with them using a web3-enabled Ethereum wallet. It includes a smart contract written in Solidity, along with documentation and example code to help you get started.
+HistoricalBookCovers is an Ethereum smart contract that enables the creation and management of `non-fungible tokens` (NFTs) representing historical book covers from various museums around the world. The smart contract stores metadata for each NFT, including the book name, category, subject, author, publication date, country, continent, and museum. This project is designed for developers who are interested in learning how to create NFTs with Solidity and interact with them using a web3-enabled Ethereum wallet. It includes a smart contract written in Solidity, along with documentation and example code to help you get started.
 
 ## Installation
 To install the smart contract, you'll need to have the following prerequisites installed:
@@ -86,18 +86,18 @@ async function main() {
 
 main();
 ```
-In this example, we're using the getBookInfo function to retrieve the book information for an existing NFT with token ID 1. The function returns a BookInfo struct, which we're logging to the console.
+In this example, we're using the `getBookInfo` function to retrieve the book information for an existing NFT with token ID 1. The function returns a BookInfo struct, which we're logging to the console.
 
 ## Setting up a connection to a Web3 Contract
 
-1. Install the required dependencies: @openzeppelin/contracts and a Web3 provider such as web3.js.
+1. Install the required dependencies: `@openzeppelin/contracts` and a Web3 provider such as `web3.js`.
 2. Connect to the Ethereum network using the Web3 provider:
 ```javascript
 const Web3 = require("web3");
 const web3 = new Web3("https://mainnet.infura.io/v3/<INFURA-PROJECT-ID>");
 ```
-Replace <INFURA-PROJECT-ID> with Infura project ID.
-3. Load the contract ABI and address:
+Replace `<INFURA-PROJECT-ID>` with Infura project ID.
+3. Load the contract `ABI` and address:
 ```javascript
 const contractABI = <ABI-JSON>; // Replace <ABI-JSON> with the ABI JSON of the contract
 const contractAddress = "<CONTRACT-ADDRESS>"; // Replace <CONTRACT-ADDRESS> with the address of the deployed contract
@@ -106,7 +106,7 @@ const contractAddress = "<CONTRACT-ADDRESS>"; // Replace <CONTRACT-ADDRESS> with
 ```javascript
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 ```
-5. Call the mintNFT function to mint a new NFT:
+5. Call the `mintNFT` function to mint a new NFT:
 ```javascript
 const recipient = "<RECIPIENT-ADDRESS>"; // Replace <RECIPIENT-ADDRESS> with the address of the recipient
 const tokenURI = "<TOKEN-URI>"; // Replace <TOKEN-URI> with the URI of the token
@@ -140,9 +140,9 @@ contract.methods
     console.error("Error minting NFT:", error);
   });
   ```
-Replace <SENDER-ADDRESS> with the address of the sender.
+Replace `<SENDER-ADDRESS>` with the address of the sender.
 
-6. Call the getBookInfo function to retrieve information about a specific NFT:
+6. Call the `getBookInfo` function to retrieve information about a specific NFT:
 ```javascript
 const tokenId = "<TOKEN-ID>"; // Replace <TOKEN-ID> with the ID of the token
 
