@@ -161,7 +161,7 @@ In addition to the main `HistoricalBookCovers` contract, we have also developed 
 
 To use the `ArabicDocuments` contract, you will need to deploy it to the blockchain along with the `HistoricalBookCovers` contract. Once deployed, you can call the `addDocument` function on the `ArabicDocuments` contract to associate a document URI with a specific token ID on the `HistoricalBookCovers` contract. You can then use the `getDocument` function on the `ArabicDocuments` contract to retrieve the document URI associated with a specific token ID.
 
-For more information on the `ArabicDocuments` contract and how to use it, please refer to the separate document titled [ArabicDocuments.md](ArabicDocuments.md) in this repository.
+For more information on the `ArabicDocuments`[ArabicDocuments.sol] contract and how to use it, please refer to the separate document titled [ArabicDocuments.md](ArabicDocuments.md) in this repository.
 
 ## Conclusion
 The `HistoricalBookCovers` contract and the `ArabicDocuments` contract provide a simple way to represent and store historical book covers and associated documents on the blockchain. They can be easily integrated into your smart contract project and customized to fit your specific use case.
