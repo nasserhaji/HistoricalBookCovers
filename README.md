@@ -92,7 +92,8 @@ In this example, we're using the getBookInfo function to retrieve the book infor
 
 1. Install the required dependencies: @openzeppelin/contracts and a Web3 provider such as web3.js.
 2. Connect to the Ethereum network using the Web3 provider:
-```const Web3 = require("web3");
+```javascript
+const Web3 = require("web3");
 const web3 = new Web3("https://mainnet.infura.io/v3/<INFURA-PROJECT-ID>");
 ```
 
