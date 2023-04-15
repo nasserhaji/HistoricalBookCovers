@@ -88,6 +88,14 @@ main();
 ```
 In this example, we're using the getBookInfo function to retrieve the book information for an existing NFT with token ID 1. The function returns a BookInfo struct, which we're logging to the console.
 
+## Setting up a connection to a Web3 Contract
+
+1. Install the required dependencies: @openzeppelin/contracts and a Web3 provider such as web3.js.
+2. Connect to the Ethereum network using the Web3 provider:
+```const Web3 = require("web3");
+const web3 = new Web3("https://mainnet.infura.io/v3/<INFURA-PROJECT-ID>");
+```
+
 ## Contributing
 We welcome contributions to the HistoricalBookCovers project! If you'd like to contribute, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and we'll review it as soon as possible.
 
