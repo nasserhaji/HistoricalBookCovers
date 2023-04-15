@@ -165,8 +165,9 @@ For more information on the `ArabicDocuments`[ArabicDocuments.sol](ArabicDocumen
 
 ## Conclusion
 The `HistoricalBookCovers` contract and the `ArabicDocuments` contract provide a simple way to represent and store historical book covers and associated documents on the blockchain. They can be easily integrated into your smart contract project and customized to fit your specific use case.
+
 ## Contributing
-We welcome contributions to the HistoricalBookCovers project! If you'd like to contribute, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and we'll review it as soon as possible.
+I welcome contributions to the HistoricalBookCovers project! If you'd like to contribute, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and I'll review it as soon as possible.
 
 ## License
 HistoricalBookCovers is released under the MIT [LICENSE](LICENSE).
