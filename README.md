@@ -173,7 +173,7 @@ I welcome contributions to the HistoricalBookCovers project! If you'd like to co
 HistoricalBookCovers is released under the MIT [LICENSE](LICENSE).
 
 ## Authors
-- [Mohammad Nasser Haji Hashemabad](https://github.com/nasserhaji/)
+- [Mohammad Nasser Haji hashemabad](https://mohammadnasser.com)
 
 ## Contact
-If you have any questions or comments about HistoricalBookCovers, feel free to reach out to me at [Email](mailto:info@abdelnasser.com).
+If you have any questions or comments about HistoricalBookCovers, feel free to reach out to me at [Email](mailto:info@mohammadnasser.com).
